@@ -1,24 +1,27 @@
 .grid-container{
-    display:grid;
-    height: 900;
-    gap: 15;
-    padding: 15;
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows: 2fr;
+    gap: 10%;
+    width: 85%;
+    height: 80%;
     
+   
+
 }
-.grid-item{
-  padding: 10;  
+.item1{
+color: #939C91;
+grid-column-start: 1;
+grid-column-end: 2;
+
 }
 
-.item1{
-color: #B8B8F3;
-grid-column: 1 / span 2;
-grid-row: 1;
-}
 .item2{
 color: #D7B8F3;
 grid-column: 4;
 grid-row: 4;
 }
+
 .item3{
 color: #F397D6;
 }
@@ -26,35 +29,35 @@ color: #F397D6;
 .item4{
 color: #F42272;
 }
-.item5{
 
+.item5{
+color: #B8B8F3;
 }
 
 .item6{
-
+color: #F397D6;
 }
 
 .item7{
-
+color: #F42272;
 }
 
 .item8{
-
+color: #B8B8F3;
 }
 
 .item9{
-
+color:#F397D6
 }
 
 .item10{
-
+color: #F42272;
 }
 
 .item11{
-
+color: #B8B8F3;
 }
 
 .item12{
-
-
+color: #F397D6;
 }
